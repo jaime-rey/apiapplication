@@ -4,11 +4,14 @@ import io.getarrays.apiapplication.model.Employee;
 import io.getarrays.apiapplication.repository.InMemoryEmployeeRepository;
 import io.getarrays.apiapplication.service.EmployeeService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import java.util.List;
 
 @RequiredArgsConstructor
 @Service
+@Qualifier(value = "inMemory")
 public class InMemoryEmployeeServiceImpl implements EmployeeService {
     private final InMemoryEmployeeRepository inMemoryEmployeeRepository;
 
