@@ -1,4 +1,4 @@
-package io.getarrays.apiapplication.model;
+package io.getarrays.api.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

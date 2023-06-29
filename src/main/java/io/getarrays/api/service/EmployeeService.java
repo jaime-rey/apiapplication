@@ -1,6 +1,6 @@
-package io.getarrays.apiapplication.service;
+package io.getarrays.api.service;
 
-import io.getarrays.apiapplication.model.Employee;
+import io.getarrays.api.model.Employee;
 
 import java.util.List;
 

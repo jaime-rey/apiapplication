@@ -1,5 +1,5 @@
-package io.getarrays.apiapplication.repository;
-import io.getarrays.apiapplication.model.Employee;
+package io.getarrays.api.repository;
+import io.getarrays.api.model.Employee;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

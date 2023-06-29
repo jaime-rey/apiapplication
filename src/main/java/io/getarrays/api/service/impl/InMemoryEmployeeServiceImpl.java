@@ -1,11 +1,10 @@
-package io.getarrays.apiapplication.service.impl;
+package io.getarrays.api.service.impl;
 
-import io.getarrays.apiapplication.model.Employee;
-import io.getarrays.apiapplication.repository.InMemoryEmployeeRepository;
-import io.getarrays.apiapplication.service.EmployeeService;
+import io.getarrays.api.model.Employee;
+import io.getarrays.api.repository.InMemoryEmployeeRepository;
+import io.getarrays.api.service.EmployeeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import java.util.List;
 

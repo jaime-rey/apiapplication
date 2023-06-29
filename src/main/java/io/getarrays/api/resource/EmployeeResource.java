@@ -1,7 +1,7 @@
-package io.getarrays.apiapplication.resource;
+package io.getarrays.api.resource;
 
-import io.getarrays.apiapplication.model.Employee;
-import io.getarrays.apiapplication.service.EmployeeService;
+import io.getarrays.api.model.Employee;
+import io.getarrays.api.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -45,7 +45,7 @@ public class EmployeeResource {
     public ResponseEntity<Boolean> updateEmployee(){
         return null;
     }
-    private URI getLocation(Integer id) {
+    protected static URI getLocation(Integer id) {
         return fromCurrentRequest().path("{id}").buildAndExpand(id).toUri();
     }
 

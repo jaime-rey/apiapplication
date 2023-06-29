@@ -1,6 +1,6 @@
-package io.getarrays.apiapplication.repository;
+package io.getarrays.api.repository;
 
-import io.getarrays.apiapplication.model.Employee;
+import io.getarrays.api.model.Employee;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
